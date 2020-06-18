@@ -1,0 +1,28 @@
+.background {
+    margin-bottom: 50px;
+    background-image: -o-linear-gradient(
+        bottom,
+        rgba(252, 227, 138, 0.9) 0%,
+        rgba(243, 129, 129, 0.9) 100%
+      ),
+      -webkit-image-set(url(../images/picture.png) 1x, url(../images/picture@2x.png) 2x);
+    background-image: -webkit-gradient(
+        linear,
+        left bottom, left top,
+        from(rgba(252, 227, 138, 0.9)),
+        to(rgba(243, 129, 129, 0.9))
+      ),
+      -webkit-image-set(url(../images/picture.png) 1x, url(../images/picture@2x.png) 2x);
+    background-image: linear-gradient(
+        0deg,
+        rgba(252, 227, 138, 0.9) 0%,
+        rgba(243, 129, 129, 0.9) 100%
+      ),
+      image-set(url(../images/picture.png) 1x, url(../images/picture@2x.png) 2x);
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 40px;
+  }
+  

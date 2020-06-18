@@ -1,0 +1,30 @@
+/*
+ * Все паршалы импортировать в этот файл
+ */
+@import 'helpers/variables';
+@import 'helpers/mixins';
+@import 'normalize';
+@import 'base';
+
+// Components
+
+@import 'components/list.scss';
+@import 'components/align-baseline';
+@import 'components/align-between';
+@import 'components/flex-wrap';
+@import 'components/justify-between';
+@import 'components/justify-center';
+@import 'components/container';
+@import 'components/background';
+@import 'components/nav';
+@import 'components/title';
+@import 'components/button';
+@import 'components/service';
+@import 'components/text';
+@import 'components/our-team';
+@import 'components/social';
+@import 'components/footer';
+@import 'components/subscribe__form';
+@import 'components/subscribe__btn';
+
+

@@ -1,0 +1,69 @@
+.subscribe__form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+  
+  .subscribe__input input {
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: #333333;
+    overflow: hidden;
+    width: 228px;
+    height: 40px;
+    border: 1px solid #e7e7e7;
+    border-right: none;
+    padding-left: 10px;
+  }
+  
+  .subscribe__input input::-webkit-input-placeholder {
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: #999999;
+  }
+  
+  .subscribe__input input::-moz-placeholder {
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: #999999;
+  }
+  
+  .subscribe__input input:-ms-input-placeholder {
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: #999999;
+  }
+  
+  .subscribe__input input::-ms-input-placeholder {
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: #999999;
+  }
+  
+  .subscribe__input input::placeholder {
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: #999999;
+  }

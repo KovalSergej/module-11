@@ -1,0 +1,67 @@
+.nav {
+    min-height: 70px;
+    padding-top: 29px;
+    margin-bottom: 185px;
+  }
+  .nav__logo {
+    display: block;
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    width: 86px;
+    height: 23px;
+  }
+  .nav__site {
+    min-width: 50px;
+    min-width: 490px;
+    margin: 0;
+    padding: 0;
+  }
+  .nav__link {
+    position: relative;
+    padding-bottom: 15px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    -webkit-transition-property: color;
+    -o-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 200ms;
+         -o-transition-duration: 200ms;
+            transition-duration: 200ms;
+  }
+
+  .nav__link:hover {
+    color: $hover-accent-color;
+  }
+  
+  .nav__link::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 3px;
+    background-color: transparent;
+    -webkit-transition-property: background-color;
+    -o-transition-property: background-color;
+    transition-property: background-color;
+    -webkit-transition-duration: 200ms;
+         -o-transition-duration: 200ms;
+            transition-duration: 200ms;
+  }
+  
+  .nav__link:hover::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 3px;
+    background-color: $hover-accent-color;
+  }
+  
+  

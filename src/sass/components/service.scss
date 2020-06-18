@@ -1,0 +1,82 @@
+.service {
+    height: 240px;
+    margin-bottom: 100px;
+    padding: 0;
+  }
+  .service__item {
+    position: relative;
+    width: 380px;
+    height: 80px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0 0 0 60px;
+  }
+  .service__title {
+    margin: 0 0 15px 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: $main-text-color;
+  }
+  .service__description {
+    margin: 0;
+    padding: 0;
+  }
+  .service__item:nth-child(1)::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 32px;
+    height: 32px;
+    background-image: url(../images/service/photography.png);
+  }
+  .service__item:nth-child(2)::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 32px;
+    height: 32px;
+    background-image: url(../images/service/web-design.png);
+  }
+  .service__item:nth-child(3)::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 32px;
+    height: 32px;
+    background-image: url(../images/service/creativity.png);
+  }
+  .service__item:nth-child(4)::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 32px;
+    height: 32px;
+    background-image: url(../images/service/seo.png);
+  }
+  .service__item:nth-child(5)::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 32px;
+    height: 32px;
+    background-image: url(../images/service/css-html.png);
+  }
+  .service__item:nth-child(6)::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 32px;
+    height: 32px;
+    background-image: url(../images/service/digital.png);
+  }
+  

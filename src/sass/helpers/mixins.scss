@@ -1,0 +1,13 @@
+@mixin font(
+    $ff: '"Montserrat", sans-serif', 
+    $fw: 400, 
+    $fs: 14px, 
+    $lh: 17px, 
+    $tt: uppercase) {
+  
+  font-family: $ff;
+  font-weight: $fw;
+  font-size: $fs;
+  line-height: $lh;
+  text-transform: $tt;    
+}

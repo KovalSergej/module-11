@@ -1,0 +1,63 @@
+.facebook,
+.twitter,
+.pinterest,
+.instagram {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+
+  width: 50px;
+  height: 50px;
+  border: none;
+  background-color: $hover-accent-color;
+  -webkit-transition-property: background-color, border;
+  -o-transition-property: background-color, border;
+  transition-property: background-color, border;
+  -webkit-transition-duration: 200ms;
+       -o-transition-duration: 200ms;
+          transition-duration: 200ms;
+}
+
+.team-members__hover svg {
+  display: block;
+  width: 26px;
+  height: 26px;
+  fill: #f38181;
+}
+
+.facebook:hover svg,
+.twitter:hover svg,
+.pinterest:hover svg,
+.instagram:hover svg {
+  fill: #ffffff;
+}
+
+.facebook {
+  background-image: url(../images/socials/sprite.svg#facebook);
+}
+
+.twitter {
+  background-image: url(../images/socials/sprite.svg#twitter);
+}
+
+.pinterest {
+  background-image: url(../images/socials/sprite.svg#pinterest);
+}
+
+.instagram {
+  background-image: url(../images/socials/sprite.svg#instagram);
+}
+
+.facebook:hover,
+.twitter:hover,
+.pinterest:hover,
+.instagram:hover {
+  background-color: #f38181;
+  border: transparent;
+}
